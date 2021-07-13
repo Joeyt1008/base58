@@ -2,15 +2,8 @@ dist: xenial
 language: python
 arch:
     - amd64
-    - ppc64le
 python:
-    - "3.5"
-    - "3.6"
     - "3.7"
-    - "3.8"
-    - "3.9"
-    - "pypy3.5-7.0.0"
-    - "pypy3.6-7.1.1"
 jobs:
     exclude:
       - arch: ppc64le
